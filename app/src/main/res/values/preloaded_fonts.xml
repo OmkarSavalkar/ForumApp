@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/ceviche_one</item>
+        <item>@font/chicle</item>
+        <item>@font/chonburi</item>
+        <item>@font/coiny</item>
+        <item>@font/damion</item>
+        <item>@font/dancing_script</item>
+    </array>
+</resources>

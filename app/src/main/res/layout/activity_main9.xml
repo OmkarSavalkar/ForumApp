@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main9Activity"
+    android:background="@drawable/gradient">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5pt"
+                android:text="Need To Know !"
+                android:textColor="#7233E4"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginRight="2pt"
+                android:paddingLeft="1pt"
+                android:paddingTop="1pt"
+                android:paddingRight="1pt"
+                android:paddingBottom="8pt"
+                android:text="Forum Solutions is a application used for interaction between people who know each other to gain solution to there problems.It can used to ask or tell any kind of ideas,queries,etc.This application can maintain active participation among users or friend or known people for discussion purpose.It can be specially made to use for technical,logical or any kind of contents as per the institute or group of users.\n\n How to add Questions:-\n\n 1.click on Question and answer button to to ask or view question-list.\n2.Type the question in given Text area.\n3.click on post to post the question , click on clear to clear the text field.\nYou can press the back button of the device and view your question.\n\nHow to answer:-\n\n1.click on question and answer button.\n2.click on the question which you want to answer from the list.\n3.type the answer in the text area.\n4.click on post to post the answer.\n\nHow to Comment:- \n\n1.click on the questions and answer button click on particular question to view its answer.\n2.click on the answer to comment.\n3.click on ok to comment.\n4.type the comment for the answer and click on post to post it.\n\nHow to delete comment:-\n\nslide the comment which you want to delete and click on delete logo."
+                android:textColor="#094E0B"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

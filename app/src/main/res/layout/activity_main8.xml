@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity"
+    android:background="@drawable/gradient">
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35pt"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/coiny"
+        android:onClick="toallusersclick"
+        android:text="All Users"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25pt"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/coiny"
+        android:onClick="toquestionsclick"
+        android:text="Questions and Answers"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25pt"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/coiny"
+        android:onClick="howtouseclick"
+        android:text="How To Use"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

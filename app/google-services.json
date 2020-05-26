@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040421535901",
+    "firebase_url": "https://welcome-53a8c.firebaseio.com",
+    "project_id": "welcome-53a8c",
+    "storage_bucket": "welcome-53a8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040421535901:android:cdf613f29f42ac84061474",
+        "android_client_info": {
+          "package_name": "com.example.welcome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040421535901-5bohtsmu71kbbe3bthj0irn6unmgtf2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdvN-55OmYa0g-MNww5peHjfeK4DCpGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040421535901-5bohtsmu71kbbe3bthj0irn6unmgtf2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

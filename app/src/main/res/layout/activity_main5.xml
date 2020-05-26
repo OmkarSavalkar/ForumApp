@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/txtviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2pt"
+        android:text="Answers"
+        android:textColor="#5C08E6"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:id="@+id/alist"
+        android:layout_above="@id/editText8"
+        android:layout_below="@id/txtviewtitle"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="5dp"
+        android:divider="#F7B25C"
+        android:dividerHeight="5.0sp"
+        android:padding="5dp">
+
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+    <!--<ListView
+        android:id="@+id/alist"
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:layout_above="@id/editText8"
+        android:layout_below="@id/txtviewtitle"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="5dp"
+        android:divider="#EBD546"
+        android:dividerHeight="5.0sp"
+        android:padding="8dp" />-->
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2pt"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:hint="Enter Your Answer"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="#6F3ECA"
+        android:text="Post"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtviewtitle"
+        android:layout_marginLeft="7pt"
+        android:layout_marginTop="1pt"
+        android:layout_marginRight="7pt"
+        android:background="#048A7F"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="#6F3ECA"
+        android:onClick="answerclearclick"
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>

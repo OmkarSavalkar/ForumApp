@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/commentviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:text="Comments"
+        android:textColor="#5C08E6"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/commentlist"
+        android:layout_width="wrap_content"
+        android:layout_height="525dp"
+        android:layout_above="@id/editTextcomment"
+        android:layout_below="@id/commentviewtitle"
+        android:layout_marginTop="14pt"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:divider="#830F9E"
+        android:dividerHeight="5.0sp">
+
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+    <!--<ListView
+        android:id="@+id/commentlist"
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:layout_above="@id/editTextcomment"
+        android:layout_below="@id/commentviewtitle"
+        android:layout_marginTop="14pt"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:divider="#EBD546"
+        android:dividerHeight="2.0sp"/>-->
+
+    <EditText
+        android:id="@+id/editTextcomment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2pt"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:hint="Enter Your Comments"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <Button
+        android:id="@+id/butto"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="#6F3ECA"
+        android:text="Post Comment"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonclearcomment"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="#6F3ECA"
+        android:onClick="commentclearclick"
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
